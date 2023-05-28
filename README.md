@@ -10,3 +10,16 @@
 
    ```shell
    python -m venv myenv
+
+3. Активируйте виртуальное окружение. Для Windows выполните:
+
+   ```shell
+   myenv\Scripts\activate
+
+Для macOS и Linux выполните:
+
+   ```shell
+   source myenv/bin/activate
+   
+4. Установите зависимости проекта, перейдя в корневую директорию проекта и выполнив команду:
+
