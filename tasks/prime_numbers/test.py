@@ -1,4 +1,4 @@
-from .main import find_prime_numbers
+from main import find_prime_numbers
 
 expected_output = [2, 3, 5, 7, 11, 13, 17, 19]
 assert find_prime_numbers(20) == expected_output
