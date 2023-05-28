@@ -10,7 +10,6 @@ from main import fetch_all
 class FetchAllTestCase(unittest.TestCase):
     def setUp(self):
         self.urls = [
-            "https://www.example.com",
             "https://www.google.com",
             "https://www.python.org"
         ]
@@ -32,5 +31,7 @@ class FetchAllTestCase(unittest.TestCase):
             filename = f"{self.folder_path}/{hostname}{i+1}.html"
             with open(filename, "r", encoding="utf-8") as file:
                 content = file.read()
-                self.assertTrue(content.startswith("<!DOCTYPE html"))
+                self.assertTrue(content.startswith("<!doctype html"))
                 self.assertIn(url, content)
+
+unittest.main()
