@@ -34,3 +34,7 @@
 В данном решении были использованы следующие библиотеки asyncio/aiohttp для асинхронной обработки запросов по указанным ссылкам - директория списка ссылок "tasks/url_upload/urls.txt". Далее, создан сценарий работы модуля и произведен unittest.TestCase в файле "test.py". Запуск производится следующей командой. 
 
     cd tasks/url_upload/ && python3 main.py
+    
+## Проектирование сервиса-посредника
+
+Подробное решение задание находится по ссылке https://drive.google.com/file/d/16hm-tV74v7-RXWKRVPReE1ulgNxArVtx/view?usp=sharing
